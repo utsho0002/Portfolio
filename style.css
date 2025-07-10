@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
+body{
+    margin: 0;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -42,7 +44,7 @@ nav h3{
     border-radius: 5px;
     background-color: #FD6E0A;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     font-weight: bold;
     padding: 18px,35px,;
@@ -66,6 +68,7 @@ nav h3{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
+    
 }
 .banner-content{
     height: 256px;
@@ -74,4 +77,161 @@ nav h3{
 header {
    background-image: url('portfolio-resources/images/developer.png'),url('portfolio-resources/images/header_bg.png');
    background-repeat: no-repeat;
+   background-position: top left, bottom right ;
+}
+.about{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-des{
+    font-size: 18px;
+    color:#757575
+}
+.About-me{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    border-radius: 10px;
+    margin-top:130px;
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-info{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-title{
+    color:#757575;
+    font-size: 20px;
+}
+.Skills{  
+    margin-top: 130px;
+}
+.text_c{
+    text-align: center;
+}
+.what_i{
+    font-size: 35px;
+}
+.what{
+    font-size: 18px;
+    color: #757575;
+}
+.skill-name{
+    height: 377px;
+    width: 267px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.06);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 33px;
+}
+.skil-names{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-title{
+    font-size: 20px;
+    color: #181818;
+}
+.summary-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(24, 24, 24, 1);
+}
+.skill-des{
+    color:rgba(117, 117, 117, 1);
+}
+.summary-all{
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+    margin-top: 113px;
+}
+.education{
+    color: #FD6E0A;
+    font-size: 30px;
+}
+.edu-title{
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+}
+.edu-subtitle{
+    color:rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+}
+.edu-des{
+    color:rgba(117, 117, 117, 1);
+    font-size: 16px;
+}
+h4{
+    color: rgba(209, 209, 209, 1);
+}
+.Summary{
+    margin-top: 130px;
+}
+.btn2{
+    margin-top: 50px;
+}
+footer{
+    background-color: rgba(255, 248, 243, 1);
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    padding-top: 130px;
+    padding-left: 230px;
+     padding-right: 230px;
+     margin-top: 113px;
+     padding-bottom: 130px;
+}
+.footer-tit{
+    font-size: 35px;
+}
+.fotter-dis{
+    color: rgba(71, 71, 71, 1);
+    font-size: 16px;
+}
+.foot-icons{
+   
+}
+.icons-f{
+    display: inline;
+    gap: 25px;
+}
+#txt{
+    height: 64px;
+    width: 461px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+}
+#txtarea{
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+.footer-column{
+    width: 50%;
+}
+#contact{
+    background-color: #ffffff00;
+    border: 1px solid rgba(253, 110, 10, 1);
 }
